@@ -7,7 +7,7 @@ def valid_input(msg):
                 return binary_input
             else:
                 print("Invalid input. Please enter a valid binary number.")
-    elif msg == 'lrc':
+    elif msg in 'lrc checksum':
         while True:
             binary_input = input('Enter binary blocks separated by spaces: ')
             blocks = binary_input.split()
